@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Georgia, serif;
+}
+
+.page {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page.active {
+  display: flex;
+}
+
+.lace {
+  border: 10px solid red;
+  padding: 40px;
+  width: 80%;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 24px;
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+.small {
+  font-size: 18px;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+video {
+  width: 70%;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: red;
+  color: white;
+}
+
+#noBtn {
+  background: white;
+  color: red;
+  border: 2px solid red;
+}
