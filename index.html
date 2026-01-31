@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page active" id="page1">
+  <div class="lace">
+    <p class="text">
+      This is my first time doing something for someone on Valentine’s.<br><br>
+      And I want this to be my first and last person I do something like this for.<br><br>
+      So please cope with me, babe.
+    </p>
+  </div>
+</div>
+
+<div class="page" id="page2">
+  <div class="lace">
+    <div class="gallery">
+      <img src="images/pic1.jpg">
+      <img src="images/pic2.jpg">
+      <img src="images/pic3.jpg">
+    </div>
+
+    <video id="proposalVideo" controls>
+      <source src="proposal.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="nextPage()">Next</button>
+  </div>
+</div>
+
+<div class="page" id="page3">
+  <div class="lace">
+    <p class="text">
+      I know I might have hurt you, might have done things I never meant to,
+      or made mistakes… but can we forget that part of ours?
+    </p>
+
+    <h1>Will you be my Valentine?</h1>
+    <p class="small">
+      Not only this year, but every year from now till we are alive.
+    </p>
+
+    <div class="buttons">
+      <button id="yesBtn" onclick="yes()">Yes</button>
+      <button id="noBtn" onclick="no()">No</button>
+    </div>
+  </div>
+</div>
+
+<div class="page" id="page4">
+  <div class="lace">
+    <h1>I love you so much, babe.</h1>
+    <p> I wish we do better for us… together. ❤️</p>
+  </div>
+</div>
+
+<audio id="audio1" src="song1.mp3"></audio>
+<audio id="audio2" src="song2.mp3"></audio>
+<audio id="audio3" src="song3.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
